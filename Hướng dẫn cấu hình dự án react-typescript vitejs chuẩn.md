@@ -40,7 +40,7 @@ npm i prettier eslint-config-prettier eslint-plugin-prettier -D
 
 - eslint-config-prettier: Bộ config ESLint để vô hiệu hóa các rule của ESLint mà xung đột với Prettier.
 
-- eslint-plugin-prettier: Dùng thêm 1 số rule Prettier cho ESLint
+- eslint-plugin-prettier: Dùng thêm mốt số rule Prettier cho ESLint
 
 ### Bước 3 - Config ESlint để chuẩn hóa code
 
@@ -118,7 +118,7 @@ Mục đích là Prettier bỏ qua các file không cần thiết
 Tạo file .editorconfig ở thư mục root
 Mục đích là cấu hình các config đồng bộ các editor với nhau nếu dự án có nhiều người tham gia.
 
-Để VS Code hiểu được file này thì anh em cài Extension là EditorConfig for VS Code nhé
+Để VS Code hiểu được file này thì anh em cài Extension là "EditorConfig for VS Code" nhé
 
 ```
 [*]
@@ -152,6 +152,8 @@ npm i @types/node -D
 ```
 
 Cấu hình alias và enable source map ở file vite.config.ts
+Ở đây tôi đã cài vite với react-swc nên cấu hình như sau:
+(ông nào cài vite với react-js thì cấu hình khác ở dòng import react from '@vitejs/plugin-react-swc' thành import react from '@vitejs/plugin-react-js' là được)
 
 ```
 import { defineConfig } from 'vite'
