@@ -1,5 +1,6 @@
 ### Bước 0 - Cài đặt các extension cần thiết:
 
+```
 Better Comments
 Bracket Pair Colorizer 2
 Javascript (ES6) code snippets
@@ -18,6 +19,7 @@ Prettier - Code formatter
 ESLint
 vscode-icons
 Dracula Official
+```
 
 - Một số extention cần cấu hình thêm mới có thể hoạt động.
 
